@@ -6,6 +6,10 @@ lang="ru"
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка</title>
+    <link
+    rel="stylesheet"
+    href="css/style.css"
+    >
   </head>
   <body class="page__body">
     <header class="main-header">
@@ -17,7 +21,7 @@ lang="ru"
       height="35"
       alt="Мишка"
       >
-      <nav class="main-header__nav main-nav">
+      <nav class="main-header__nav main-nav visually-hiddenq">
         <button
         class="main-nav__toggle"
         type="button"
@@ -35,7 +39,7 @@ lang="ru"
             <li class="main-nav__item nav-item">
               <a
               class="nav-item__link"
-              href="#"
+              href="form.html"
               >
                 Вязание на заказ
               </a>
@@ -120,7 +124,10 @@ lang="ru"
 
       <section class="video-process">
         <h2 class="video-process__title video-process__title--video">Процесс производства</h2>
-        <video class="video-process__video" src="#"><a href="#"></a></video>
+        <video
+        class="video-process__video"
+        src="#"
+        ><a href="#"></a></video>
         <p class="video-process__discription"></p>
         <button
             class="video-process__button button"
@@ -129,7 +136,7 @@ lang="ru"
       </section>
     </main>
 
-    <footer class="form-footer">
+    <footer class="catalog-footer">
 
       <section class="social">
         <div class="social__icons">
@@ -146,7 +153,7 @@ lang="ru"
             </li>
           </ul>
         </div>
-        <div class="form-footer__copyright copyright">
+        <div class="social__copyright copyright">
           <b class="copyright__text">Разработано:</b>
           <a class="copyright__link copyright__link--htmlacademy" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </div>
