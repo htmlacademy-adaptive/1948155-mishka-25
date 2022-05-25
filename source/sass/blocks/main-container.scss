@@ -1,0 +1,21 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .main-container {
+    top: 1px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-container__title {
+    padding: 157px 225px 355px 225px;
+    font-size: 53px;
+    line-height: 57px;
+  }
+}
